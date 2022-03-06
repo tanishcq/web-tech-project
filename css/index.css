@@ -55,7 +55,7 @@ ul {
 }
 
 .nav-item {
-    margin-left: 5rem;
+    margin-left: 3rem;
 }
 
 .nav-link{
@@ -68,9 +68,12 @@ ul {
 
 .nav-link:hover{
     color: #482ff7;
-    padding: 0 1rem;
     border-radius: 5px;
     background-color: rgba(111, 0, 255, 0.05);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .nav-logo {
@@ -86,7 +89,6 @@ ul {
 }
 
 .nav-logo:hover {
-    padding: 0 1rem;
     border-radius: 5px;
     background-color: rgba(111, 0, 255, 0.05);
     -webkit-border-radius: 5px;

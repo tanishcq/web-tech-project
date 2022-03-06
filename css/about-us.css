@@ -31,8 +31,8 @@ header > h1 {
 }
 
 .anim-typewriter {
-    animation: typewriter 2s steps(40) 1s 1 normal both,     blinkTextCursor 500ms steps(40) infinite normal;
-    -webkit-animation: typewriter 2s steps(40) 1s 1 normal both,     blinkTextCursor 500ms steps(40) infinite normal;
+    animation: typewriter 1s steps(40) 1s 1 normal both,     blinkTextCursor 500ms steps(40) infinite normal;
+    -webkit-animation: typewriter 1s steps(40) 1s 1 normal both,     blinkTextCursor 500ms steps(40) infinite normal;
 }
 
 main {

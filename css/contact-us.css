@@ -1,0 +1,56 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    height: 85vh;
+}
+
+input {
+    border: 1px solid grey;
+    border-radius: 4px;
+    outline: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.fname, .lname, .email {
+    margin-bottom: 10px;
+}
+
+.email > label {
+    margin-right: 40px;
+}
+
+.form-model {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+textarea {
+    outline: none;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+button {
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 4px;
+    outline: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
