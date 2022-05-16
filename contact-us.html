@@ -152,7 +152,7 @@
           } else {
             loader.style.display = "flex";
             sendmail(fname.value, email.value, msg.value);
-            success();
+            // success();
             loader.style.display = "none";
           }
         });
@@ -164,7 +164,13 @@
           fname: fname,
           email: email,
           message: msg,
-        });
+        }).then(function(res){
+            console.log("success", res.status)
+            success();
+        }), function(error) {
+            error();
+            console.log('FAILED...', error);
+        };
       }
 
       function emptyerror() {
