@@ -132,10 +132,12 @@ main {
     align-items: center;
     justify-content: center;
     width: 50%;
+    text-align: center;
+    text-justify: kashida;
 }
 
 .section-text > p {
-    font-size: 20px;
+    font-size: 17px;
     padding: 3rem;
 }
 
@@ -160,11 +162,32 @@ footer {
     background: #fff;
 }
 
+@media (max-width: 1300px) {
+    .nav-link {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .section-text > p {
+        font-size: 17px;
+        padding: 3rem;
+    }   
+}
+
 @media (max-width: 1114px) {
     .nav-link {
         font-size: 1rem;
         font-weight: 300;
+    }
+    .section-text > p {
+        font-size: 15px;
+        padding: 2.7rem;
     }   
+}
+
+@media (max-width: 990px) {
+    .nav-item {
+        margin-left: 1rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -180,6 +203,11 @@ footer {
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     }
+
+    .section-text > p {
+        font-size: 10px;
+        padding: 2.5rem;
+    }   
 
     .nav-link {
         font-size: 1rem;
@@ -222,5 +250,19 @@ footer {
 
     .section-image > img {
         width: 90%;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .section-text > p {
+        font-size: 9px;
+        padding: 2rem;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .section-text > p {
+        font-size: 7px;
+        padding: 1.5rem;
     }
 }

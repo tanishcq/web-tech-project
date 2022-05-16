@@ -221,13 +221,21 @@ footer {
 
 }
 .pic1
-{
+{   
     padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
+.pic1 img{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
 .flb2
 {
     display: flex;

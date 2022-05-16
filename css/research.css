@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+.research {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    text-align: center;
+}
+
+.research h1 {
+    font-size: 50px;
+}
+
+.research img {
+    width: 50%;
+}
+
+.research-summary {
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    color:rgb(54, 54, 54);
+    font-size: 15px;
+    height: auto;
+    padding: 1.5rem;
+}
+
+.research-summary h2 {
+    font-size: 40px;
+    width: 100%;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid rgb(212, 212, 212);
+}
+
+.research-summary div {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.research-summary img {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.ai-devices {
+    text-align: center;
+    margin: 0;
+}
+
+.devices-list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+}
+
+.device-div {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    /* border-bottom: 2px solid rgb(212, 212, 212); */
+}
+
+.section-text {
+    background-color: black;
+    color: rgb(238, 238, 238);
+}
+
+.ai-devices-header {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    background-color: white;
+}
+
+.gap {
+    height: 200px;
+    background-color: white;
+}
+
+#atlas-pic {
+    width: 30%;   
+}
+
+#pbody-pic {
+    width: 45%;
+}
+
