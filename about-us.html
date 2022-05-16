@@ -1,43 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Inter:wght@100;200;400&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/about-us.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Inter:wght@100;200;400&family=Poppins&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/about-us.css" />
+    <link rel="stylesheet" href="./css/index.css">
     <title>About us</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="back-btn">
-            <a href="./index.html"><img src="./images/arrowBack.svg" alt=""></a>
-        </div>
-        <h1 class="anim-typewriter">Meet our devs.</h1>
+      <div class="back-btn">
+        <a href="./index.html"><img src="./images/arrowBack.svg" alt="" /></a>
+      </div>
+      <h1 class="anim-typewriter">Meet our devs.</h1>
     </header>
-    <main>
-        <div class="dev1">
-            <div class="img-div">
-                <img src="./images/tanisuyke.jpg" alt=""/>
-            </div>
-            <h2>Tanishcq Mehta</h2>
-            <h3>Front end developer</h3>
-            <div class="tech-stack-div">
-                <span>HTML</span><span>CSS</span><span>Javascript</span><span>Bootstrap</span><span>React.js</span><span>Node.js</span><span>Express</span>
-            </div>
+    <section>
+      <div class="dev1">
+        <div class="img-div">
+          <img src="./images/tanisuyke.jpg" alt="" />
         </div>
-        <div class="dev2">
-            <div class="img-div">
-                <img src="./images/shivam2.jpeg" alt=""/>
-            </div>
-            <h2>Shivam Sharma</h2>
-            <h3>Student</h3>
-            <div class="tech-stack-div">
-                <span>HTML</span><span>CSS</span><span>Javascript</span><span>Bootstrap</span><span>CPP</span><span>Java</span>
-            </div>
+        <h2>Tanishcq Mehta</h2>
+        <h3>Front end developer</h3>
+        <div class="tech-stack-div">
+          <span>HTML</span><span>CSS</span><span>Javascript</span
+          ><span>Bootstrap</span><span>React.js</span><br /><span>Node.js</span
+          ><span>Express</span><span>CPP</span><span>Java</span>
         </div>
-    </main>
-</body>
+      </div>
+      <div class="dev2">
+        <div class="img-div">
+          <img src="./images/shivam2.jpeg" alt="" />
+        </div>
+        <h2>Shivam Sharma</h2>
+        <h3>Front end developer</h3>
+        <div class="tech-stack-div">
+          <span>HTML</span><span>CSS</span><span>Javascript</span
+          ><span>Bootstrap</span><span>CPP</span><br /><span>Java</span>
+        </div>
+      </div>
+    </section>
+    <section class="aim">
+      <div class="text-box">
+        <h2>What we do?</h2>
+        <h4>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
+          id magni qui beatae facere possimus! Ex suscipit reiciendis modi,
+          necessitatibus fuga deserunt ea ipsam amet corporis omnis adipisci
+          libero non. Dolorum sunt, magni perferendis commodi aliquid sint
+          voluptates deleniti corrupti vero facilis praesentium repudiandae illo
+          sapiente iste explicabo rem neque consequuntur repellendus sequi
+          eligendi autem, quo, doloremque dolor? Sunt, ea. Sit quaerat sapiente
+          modi ipsam dolor inventore quisquam architecto at atque? Explicabo
+          soluta illo culpa adipisci vitae, eos tempora dolore, atque nam amet
+          possimus laborum sequi totam ipsam repellendus ab? In, id temporibus.
+          A ad architecto maiores error, veritatis maxime iure exercitationem,
+          neque inventore sed delectus, earum fuga tempora assumenda. Unde saepe
+          culpa repellat fugit delectus quia quibusdam minus. Commodi.
+        </h4>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+            new Darkmode().showWidget();
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+        const options = {
+            bottom: '64px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '32px', // default: 'unset'
+            time: '0.5s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: '#fff',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: false, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+    </script>
+  </body>
 </html>
