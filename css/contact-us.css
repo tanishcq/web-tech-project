@@ -1,10 +1,14 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* filter: blur(8px);
-    -webkit-filter: blur(8px); */
-    height: 85vh;
+    height: 82vh;
+    background: transparent;
 }
 
 input {
@@ -52,5 +56,27 @@ button {
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+    cursor: pointer;
 }
 
+.bg-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    filter: blur(5px);
+    box-shadow: 0 0 200px #57527E;
+    background: #57527E url(../images/vr.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    -webkit-filter: blur(5px);
+}
+
+@media (max-width: 620px) {
+    .form-model {
+        width: 300px;
+    }
+}
